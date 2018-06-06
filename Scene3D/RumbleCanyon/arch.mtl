@@ -1,0 +1,17 @@
+# Blender MTL File: 'rumble_canyon2.blend'
+# Material Count: 1
+
+
+
+newmtl sandstone_arch
+
+illum 2
+Kd 0.800000 0.800000 0.800000
+Ka .4 .4 .4
+Ks 0 0 0
+Ke 0.000000 0.000000 0.000000
+Ns 100.000000
+d 0.99
+
+
+map_Kd sandstone_overlap_1024.jpg

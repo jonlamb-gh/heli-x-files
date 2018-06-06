@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+   <Version edit="no">2014-11-24</Version>
+   <HelixRevision edit="no">1524</HelixRevision>
+   <Author edit="no">Tyler Webb</Author>
+   <Name edit="yes">Rumble Canyon A0.1</Name>
+   <Comment edit="no"></Comment>
+   <WWW edit="no"></WWW>
+   <LightDir edit="yes">-24,-75,-44</LightDir>
+   <HeightOfEyes edit="yes">-20</HeightOfEyes>
+   <StartPosition edit="no">20,0,-20</StartPosition>
+   
+   <HeightOfGround edit="yes">-50</HeightOfGround>    
+   <VariablePilotPosition>true</VariablePilotPosition>
+	 <Terrain FrictionFactor="1" MakeCrashObject="true">
+      <Width>350</Width>
+      <XCenter>0</XCenter>
+      <ZCenter>0</ZCenter>
+      <MinHeight>-50</MinHeight>
+      <MaxHeight>0</MaxHeight>
+      <HeightMap>heightmap512.png</HeightMap>
+      <AlphaMap1>alpha512.png</AlphaMap1>
+      <Texture1b Number="25">sandstone_square_decontrast.jpg</Texture1b>
+      <Texture1r Number="50">sand_texture.jpg</Texture1r>
+      <Texture1g Number="20">outlaw_sandstone1.jpg</Texture1g>
+      <ShadowReceiver> true </ShadowReceiver>
+   </Terrain>
+ <Object FrictionFactor="1" MakeCrashObject="true">  
+      <Path> tree1.obj </Path>      
+      <Translation> 0,-.7,0 </Translation>      
+      <Rotation> 0 </Rotation>    
+			<Scale>1</Scale>  
+      <ShadowCaster> true </ShadowCaster>    
+      <ShadowReceiver>false </ShadowReceiver>  
+   </Object> 
+<Object FrictionFactor="1" MakeCrashObject="true">  
+      <Path> tree3.obj </Path>      
+      <Translation> 0,-1,0 </Translation>      
+      <Rotation> 0 </Rotation>    
+			<Scale>1</Scale>  
+      <ShadowCaster> true </ShadowCaster>    
+      <ShadowReceiver>false </ShadowReceiver>  
+   </Object> 
+<Object FrictionFactor="1" MakeCrashObject="true">  
+      <Path> tree2.obj </Path>      
+      <Translation> 0,-.7,0 </Translation>      
+      <Rotation> 0 </Rotation>    
+			<Scale>1</Scale>  
+      <ShadowCaster> true </ShadowCaster>    
+      <ShadowReceiver>false </ShadowReceiver>  
+   </Object> 
+<Object FrictionFactor="1" MakeCrashObject="true">  
+      <Path> tree4.obj </Path>      
+      <Translation> 0,-1,0 </Translation>      
+      <Rotation> 0 </Rotation>    
+			<Scale>1</Scale>  
+      <ShadowCaster> true </ShadowCaster>    
+      <ShadowReceiver>false </ShadowReceiver>  
+   </Object> 
+<Object FrictionFactor="1" MakeCrashObject="true">  
+      <Path> tree5.obj </Path>      
+      <Translation> 0,-0.5,0 </Translation>      
+      <Rotation> 0 </Rotation>    
+			<Scale>1</Scale>  
+      <ShadowCaster> true </ShadowCaster>    
+      <ShadowReceiver>false </ShadowReceiver>  
+   </Object> 
+<Object FrictionFactor="1" MakeCrashObject="true">  
+      <Path> arch.obj </Path>      
+      <Translation> 0,-2,0 </Translation>
+			<Scale>1</Scale>      
+      <Rotation> 0 </Rotation>      
+      <ShadowCaster> true </ShadowCaster>    
+      <ShadowReceiver>false </ShadowReceiver>  
+   </Object> 
+	 <Object FrictionFactor="1" MakeCrashObject="true">  
+      <Path> boulderfield1.obj </Path>      
+      <Translation> 0,0,0 </Translation>
+			<Scale>1</Scale>      
+      <Rotation> 0 </Rotation>      
+      <ShadowCaster> true </ShadowCaster>    
+      <ShadowReceiver>false </ShadowReceiver>  
+   </Object> 
+ <Object FrictionFactor="1" MakeCrashObject="true">  
+      <Path> cactus.obj </Path>      
+      <Translation> 0,0,0 </Translation>
+			<Scale>1</Scale>      
+      <Rotation> 0 </Rotation>      
+      <ShadowCaster> true </ShadowCaster>    
+      <ShadowReceiver>false </ShadowReceiver>  
+   </Object> 
+<Object FrictionFactor="1" MakeCrashObject="true">  
+      <Path> cactus_2.obj </Path>      
+      <Translation> 0,-1,0 </Translation>
+			<Scale>1</Scale>      
+      <Rotation> 0 </Rotation>      
+      <ShadowCaster> true </ShadowCaster>    
+      <ShadowReceiver>false </ShadowReceiver>  
+   </Object> 
+<Object FrictionFactor="1" MakeCrashObject="true">  
+      <Path> cactus_3.obj </Path>      
+      <Translation> 0,-1,0 </Translation>
+			<Scale>1</Scale>      
+      <Rotation> 0 </Rotation>      
+      <ShadowCaster> true </ShadowCaster>    
+      <ShadowReceiver>false </ShadowReceiver>  
+   </Object> 
+<Object FrictionFactor="1" MakeCrashObject="true">  
+      <Path> cactus_4.obj </Path>      
+      <Translation> 0,-1,0 </Translation>
+			<Scale>1</Scale>      
+      <Rotation> 0 </Rotation>      
+      <ShadowCaster> true </ShadowCaster>    
+      <ShadowReceiver>false </ShadowReceiver>  
+   </Object> 
+<Object FrictionFactor="1" MakeCrashObject="true">  
+      <Path> hoodoo1.obj </Path>      
+      <Translation> 0,0,0 </Translation>
+			<Scale>1</Scale>      
+      <Rotation> 0 </Rotation>      
+      <ShadowCaster> true </ShadowCaster>    
+      <ShadowReceiver>false </ShadowReceiver>  
+   </Object>
+<Object FrictionFactor="1" MakeCrashObject="true">  
+      <Path> hoodoo2.obj </Path>      
+      <Translation> 0,-2,0 </Translation>
+			<Scale>1</Scale>      
+      <Rotation> 0 </Rotation>      
+      <ShadowCaster> true </ShadowCaster>    
+      <ShadowReceiver>false </ShadowReceiver>  
+   </Object> 
+<Object FrictionFactor="1" MakeCrashObject="true">  
+      <Path> cave_boulder.obj </Path>      
+      <Translation> 0,-2,0 </Translation>
+			<Scale>1</Scale>      
+      <Rotation> 0 </Rotation>      
+      <ShadowCaster> true </ShadowCaster>    
+      <ShadowReceiver>false </ShadowReceiver>  
+   </Object> 
+   <Resolution1024>true</Resolution1024>
+   <Resolution2048>false</Resolution2048>
+   <Resolution4096>false</Resolution4096>
+</project>

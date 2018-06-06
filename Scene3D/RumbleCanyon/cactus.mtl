@@ -1,0 +1,14 @@
+# Blender MTL File: 'None'
+# Material Count: 2
+
+
+
+newmtl cereus
+illum 1
+Kd 0.700000 0.700000 0.700000
+Ka .4 .4 .4
+Ks 0 0 0
+Ke 0.000000 0.000000 0.000000
+Ns 100.000000
+d 0.99
+map_Kd cereus.jpg

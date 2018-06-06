@@ -1,0 +1,17 @@
+# Blender MTL File: 'rumble_canyon2.blend'
+# Material Count: 1
+
+
+
+newmtl sandstone
+
+illum 2
+Kd 0.900000 0.90000 0.9000000
+Ka .4 .4 .4
+Ks 0 0 0
+Ke 0.000000 0.000000 0.000000
+Ns 100.000000
+d 0.99
+
+
+map_Kd outlaw_sandstone1.jpg

@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+set -e
+
+INSTALL_DIR=$HOME/HELI-X7
+
+SCENE3D_DIR=$INSTALL_DIR/resources/environments/Scene3D
+
+mkdir -p $SCENE3D_DIR
+
+cp -a Scene3D/* $SCENE3D_DIR/
+
+exit 0

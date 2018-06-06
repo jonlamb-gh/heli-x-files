@@ -1,0 +1,12 @@
+# Blender MTL File: 'LANDSCAPECANYON5.blend'
+# Material Count: 2
+
+newmtl juniper2
+illum 1
+Kd 0.600000 0.600000 0.600000
+Ka .4 .4 .4
+Ks 0 0 0
+Ke 0.000000 0.000000 0.000000
+Ns 100.000000
+d 0.99
+map_Kd juniper_2.png
