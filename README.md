@@ -78,10 +78,6 @@ Canyon-1/
 
 `tweeb`'s RumbleCanyon
 
-### Canyon-0
-
-A copy of RumbleCanyon for testing.
-
 ### Canyon-1
 
 A large canyon.
@@ -108,7 +104,3 @@ Starting positions:
 ### Canyon-3
 
 ![heightmap](Scene3D/Canyon-3/heightmap.png)
-
-### Canyon-4
-
-![heightmap](Scene3D/Canyon-4/heightmap.png)
