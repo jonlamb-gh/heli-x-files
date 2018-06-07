@@ -40,6 +40,7 @@ cd heli-x-files/
 ./install
 
 # remove files from ~/HELI-X7 install
+# WARNING: this will delete environments/files from your install
 ./uninstall
 ```
 
@@ -58,12 +59,12 @@ General `Scene3D` layout:
 ```bash
 Canyon-1/
 ├── 1024
-│   ├── Canyon-1_back.jpg
-│   ├── Canyon-1_bottom.jpg
-│   ├── Canyon-1_front.jpg
-│   ├── Canyon-1_left.jpg
-│   ├── Canyon-1_right.jpg
-│   └── Canyon-1_top.jpg
+│   ├── Canyon-1_back.jpg
+│   ├── Canyon-1_bottom.jpg
+│   ├── Canyon-1_front.jpg
+│   ├── Canyon-1_left.jpg
+│   ├── Canyon-1_right.jpg
+│   └── Canyon-1_top.jpg
 ├── Canyon-1.xml
 ├── heightmap.png
 ├── alphamap.png
@@ -78,29 +79,24 @@ Canyon-1/
 
 `tweeb`'s RumbleCanyon
 
+![RumbleCanyon](Scene3D/RumbleCanyon/preview.jpg)
+
 ### Canyon-1
 
 A large canyon.
 
-There are two heightmaps:
+![Canyon-1](Scene3D/Canyon-1/preview.jpg)
 
-- ![standard heightmap (default)](Scene3D/Canyon-1/heightmap.png)
-- ![alternate heightmap](Scene3D/Canyon-1/heightmap_alt.png)
-
-Starting positions:
-
-```xml
-<!-- standard -->
-<StartPosition edit="yes">41.7,-11.7,177.1</StartPosition>
-
-<!-- alternate -->
-<StartPosition edit="yes">-3,-50,-3</StartPosition>
-```
+![heightmap](Scene3D/Canyon-1/heightmap.png)
 
 ### Canyon-2
+
+![Canyon-2](Scene3D/Canyon-2/preview.jpg)
 
 ![heightmap](Scene3D/Canyon-2/heightmap.png)
 
 ### Canyon-3
+
+![Canyon-3](Scene3D/Canyon-3/preview.jpg)
 
 ![heightmap](Scene3D/Canyon-3/heightmap.png)
