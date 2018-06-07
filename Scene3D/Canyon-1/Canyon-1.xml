@@ -6,7 +6,7 @@
     <Comment edit="no"></Comment>
     <WWW edit="no">https://github.com/jonlamb-gh/heli-x-files</WWW>
 
-    <StartPosition edit="yes">0,0,0</StartPosition>
+    <StartPosition edit="yes">-64,-11.9,35</StartPosition>
     <LightDir edit="yes">0,-1,0</LightDir>
     <HeightOfEyes edit="yes">-20</HeightOfEyes>
 
@@ -41,9 +41,9 @@
         <ShadowReceiver>true</ShadowReceiver>
     </Terrain>
 
-    <Object CeilingType="true" FrictionFactor="1" MakeCrashObject="true">
-        <Path>Heliport2m.obj</Path>
-        <Translation>0,0.0010,0</Translation>
+    <Object CeilingType="false" GroundType = "true" FrictionFactor="1" MakeCrashObject="true">
+        <Path>Box3m.obj</Path>
+        <Translation>-64,-12,35</Translation>
         <Rotation>0</Rotation>
         <ShadowCaster>false</ShadowCaster>
         <ShadowReceiver>true</ShadowReceiver>

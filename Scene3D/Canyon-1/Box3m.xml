@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <Version edit="no">2009-04-06</Version>
+  <HelixRevision edit="no">915</HelixRevision>
+
+
+   <Name>Box (3 m)</Name>
+
+	<Author>
+	Michael Schreiner
+	</Author>
+	
+	<Comment>
+	A box for the training of landing  manoeuvres.
+	The ground effect is adapted accordingly. Edge length: 3 m.</Comment>
+	<GermanComment>Eine Box mit Kantenlaenge 3 m. Der Bodeneffekt wird entsprechend umgesetzt.</GermanComment>
+		<FrenchComment>
+	Une boite de 3 metres pour pratiquer les manoeuvres d'atterissages avec effets de sol adaptés
+	</FrenchComment>
+	<WWW>
+	http://www.heli-x.net
+	</WWW>
+	<mass>
+		50.0
+	</mass>
+	<Stiffness>1000000000</Stiffness>
+<Viscosity>1000000000</Viscosity>
+<ViscosityTangential>1000000000 </ViscosityTangential>
+
+
+	<Scale>
+		1.5
+	</Scale>
+
+	<PhysicalModelName>
+		Box
+	</PhysicalModelName>
+
+</project>
