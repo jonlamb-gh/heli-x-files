@@ -6,7 +6,7 @@
     <Comment edit="no"></Comment>
     <WWW edit="no">https://github.com/jonlamb-gh/heli-x-files</WWW>
 
-    <StartPosition edit="yes">41.7,-11.7,177.1</StartPosition>
+    <StartPosition edit="yes">0,0,0</StartPosition>
     <LightDir edit="yes">0,-1,0</LightDir>
     <HeightOfEyes edit="yes">-20</HeightOfEyes>
 
@@ -40,4 +40,12 @@
         <Texture1g Number="20">outlaw_sandstone.jpg</Texture1g>
         <ShadowReceiver>true</ShadowReceiver>
     </Terrain>
+
+    <Object CeilingType="true" FrictionFactor="1" MakeCrashObject="true">
+        <Path>Heliport2m.obj</Path>
+        <Translation>0,0.0010,0</Translation>
+        <Rotation>0</Rotation>
+        <ShadowCaster>false</ShadowCaster>
+        <ShadowReceiver>true</ShadowReceiver>
+    </Object>
 </project>
